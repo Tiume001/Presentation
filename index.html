@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Presentation Site</title>
+</head>
+<body>
+
+<!--========== SCROLL TOP ==========-->
+<a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-chevron-up scrolltop__icon'></i>
+</a>
+
+<!--========== HEADER ==========-->
+<header class="l-header" id="header">
+    <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Presentation</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#specialID" class="nav__link">Special</a></li>
+                <li class="nav__item"><a href="#appID" class="nav__link">App</a></li>
+                <li class="nav__item"><a href="#contactID" class="nav__link">Contact me</a></li>
+
+                <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">Mattia Scarpa</h1>
+                <h2 class="home__subtitle">Take a look <br> at my Curriculum Vitae.</h2>
+                <a href="#" id="view-CV-button" class="button">Download CV</a>
+            </div>
+            <img src="img/myPhoto2.png" alt="Immagine di Mattia Scarpa" class="home__img">
+        </div>
+    </section>
+
+    <!--========== ABOUT ==========-->
+    <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+            <div class="about__data">
+                <span class="section-subtitle about__initial">About Us</span>
+                <h2 class="section-title about__initial">We create the best <br> game apps</h2>
+                <p class="about__description">We specialize in developing innovative and engaging mobile games. Our apps provide seamless gameplay, stunning graphics, and an immersive experience. Stay tuned for our latest releases and updates!</p>
+                <a href="https://tiume001.github.io/web-games/sito_principale/" class="button">Discover our work</a>
+            </div>
+
+            <img src="img/about.webp" alt="Game Development" class="about__img">
+        </div>
+    </section>
+
+
+    <!--========== SERVICES ==========-->
+    <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Offering</span>
+        <h2 class="section-title">Our amazing services</h2>
+
+        <div class="services__container  bd-grid">
+            <div class="services__content">
+                
+                <img src="img/test.png" alt="Immagine di Test" class="services__img1">
+                <h3 class="services__title">Custom Game Development</h3>
+                <p class="services__description">Tailored game creation for specific client needs, including mobile, PC, or console games..</p>
+            </div>
+
+            <div class="services__content">
+                <img src="img/test1.jpg" alt="Immagine di Test" class="services__img2">
+                <h3 class="services__title">Game Prototyping Services</h3>
+                <p class="services__description">Development of game prototypes to test and validate concepts before full-scale production.</p>
+            </div>
+
+            <div class="services__content">
+               <img src="img/test3.jpg" alt="Immagine di Test" class="services__img3">
+                <h3 class="services__title">Game Consulting and Optimization</h3>
+                <p class="services__description">Expert advice to enhance existing games by optimizing performance and improving user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--========== SPECIAL ==========-->
+    <section class="menu section bd-container" id="specialID">
+        <span class="section-subtitle">Special</span>
+        <h2 class="section-title">Games of the Week</h2>
+
+        <div class="menu__container bd-grid">
+            <div class="menu__content">
+                <img src="img/dama.png" alt="" class="menu__img">
+                <h3 class="menu__name">Dama</h3>
+                <span class="menu__detail">Super Graphic</span>
+                <span class="menu__preci">$2.00</span>
+                <a href="https://tiume001.github.io/web-games/dama/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+            <div class="menu__content">
+                <img src="img/talpa.png" alt="" class="menu__img">
+                <h3 class="menu__name">Caccia alla Talpa</h3>
+                <span class="menu__detail">Entertainment</span>
+                <span class="menu__preci">$1.00</span>
+                <a href="https://tiume001.github.io/web-games/talpa/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+            <div class="menu__content">
+                <img src="img/tris.png" alt="" class="menu__img">
+                <h3 class="menu__name">Tris</h3>
+                <span class="menu__detail">For everyone</span>
+                <span class="menu__preci">$1.50</span>
+                <a href="https://tiume001.github.io/web-games/tris/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--===== APP =======-->
+    <section class="app section bd-container" id="appID">
+        <div class="app__container bd-grid">
+            <div class="app__data">
+                <span class="section-subtitle app__initial">App</span>
+                <h2 class="section-title app__initial">App coming soon</h2>
+                    <p class="app__description">
+                        Tetris! <br>
+                        Our application will be available soon! <br>
+                        You will be able to download it later on the following platforms: <br>
+                        Try the demo version <a href="https://tiume001.github.io/web-games/tetris/" target="_blank" class="app__demo-link">here</a>.
+                    </p>
+                <div class="app__stores">
+                    <a href="#"><img src="img/app2.png" alt="" class="app__store"></a>
+                    <a href="#"><img src="img/app3.png" alt="" class="app__store"></a>
+                </div> 
+            </div>
+
+            <img src="img/app1.png" alt="" class="app__img">
+        </div>
+    </section>
+
+    <!--========== CONTACT US ==========-->
+    <section class="contact section bd-container" id="contactID">
+        <div class="contact__container bd-grid">
+            <div class="contact__data">
+                <span class="section-subtitle contact__initial">Let's talk</span>
+                <h2 class="section-title contact__initial">Contact us</h2>
+                <p class="contact__description">Available for online or in-person meetings from Monday to Friday. <br> From 08:00 AM to 04:00 PM. <br> By appointment only. <br> E-Mail : tiume@protonmail.com . <br> Phone Number : +39 3400080030 . </p>
+            </div>
+            <div class="contact__button">
+                <a href="mailto:tiume@protonmail.com" class="button">Contact me now <br> via E-Mail.</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--========== FOOTER ==========-->
+<footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+        <div class="footer__content">
+            <a href="https://tiume001.github.io/web-games/sito_principale/" class="footer__logo">My Games</a>
+            <span class="footer__description">Games Website</span>
+            <div>
+                <a href="https://www.facebook.com/mattia.scarpa.0" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/10.tmx.01?igsh=MWxoMmwzaW54OXhrYg%3D%3D&utm_source=qr" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Tiume001" class="footer__social">
+                <i class='bx bxl-github'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Other services</h3>
+            <ul>
+                <li><a href="#home" class="footer__link">Web Development</a></li>
+                <li><a href="#home" class="footer__link">Software Engineering</a></li>
+                <li><a href="#home" class="footer__link">Consultation</a></li>
+                <li><a href="#home" class="footer__link">Online Courses</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+                <li><a href="https://github.com/Tiume001" class="footer__link">GitHub profile</a></li>
+                <li><a href="#contactID" class="footer__link">Contact me</a></li>
+                <li><a href="#" class="footer__link" id="privacy-policyID">Privacy policy</a></li>
+                <li><a href="#" class="footer__link" id="terms-serviceID">Terms of services</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Address</h3>
+            <ul>
+                <li>Venice - Italy</li>
+                <li>European Union</li>
+                <li>Santa Croce, 2123</li>
+                <li>tiume@protonmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2021 Tiumecode. All right reserved</p>
+</footer>
+
+<!--========== SCROLL REVEAL ==========-->
+<script src="scroll_reveal.js"></script>
+
+<!--========== MAIN JS ==========-->
+<script src="script.js"></script>
+</body>
+</html>
